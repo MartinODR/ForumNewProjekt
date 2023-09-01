@@ -43,22 +43,18 @@ $data = $pdo->query("SELECT * FROM todos")->fetchAll();
         <td>UPDATE</td>
         <td>
             <!-- DELETE -->
-            <form action="server.php" method="POST">
+           <!-- <form action="server.php" method="POST">
 
             <input type="hidden" name="id" value="<php echo $record['id'] ?">
             <input type="submit" value="DELETE">
-
-        </form>
+            --> 
+             <!-- </form> --> 
 
 
         </td>
     </tr>
 
-    <?php
+  <?php
  }
-    ?>    
+  ?>    
 </table>            
-
-<?php 
-
-/** */
